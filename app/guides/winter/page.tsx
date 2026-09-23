@@ -460,7 +460,7 @@ export default function WinterGuidePage() {
                 ],
                 [
                   "First stop at walking pace",
-                  "Test the brakes in the lot before you test them on 91 Avenue. Then take a short first drive and listen to the car instead of the radio.",
+                  "Test the brakes in the lot before you test them on 82 Avenue. Then take a short first drive and listen to the car instead of the radio.",
                 ],
                 [
                   "Wash the underside",

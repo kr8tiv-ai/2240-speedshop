@@ -82,7 +82,7 @@ export default function ServicesHubPage() {
           mechanical work follow one build plan from teardown to shakedown.
         </p>
         <p className="mt-5 max-w-3xl leading-relaxed text-steel">
-          The shop sits at {site.street}, {site.city} — right on the Sherwood Park line. Every trade
+          The shop sits at {site.street}, {site.city} — just off the Sherwood Park Freeway. Every trade
           below has its own page with what the work actually involves, indicative cost ranges, and
           the questions people ask before they hand over a car.
         </p>
@@ -141,8 +141,8 @@ export default function ServicesHubPage() {
         </h2>
         <p className="mt-4 leading-relaxed text-steel">
           {site.areas.join(", ")} — and county roads we could not name. The shop is east Edmonton,
-          minutes off the Sherwood Park line, which puts it inside a straight haul from most of the
-          region.{" "}
+          just off 50 Street and the Sherwood Park Freeway, which puts it inside a straight haul
+          from most of the region.{" "}
           <Link
             className="text-tungsten underline decoration-tungsten/40 underline-offset-4 hover:text-bone"
             href="/edmonton"

@@ -764,9 +764,9 @@ function ChapterZeroCopy({ kinetic = false }: { kinetic?: boolean; ready?: boole
         {/* Two lines of address on a 320 is a line of vertical budget spent on
             something the footer already says — the street alone still places
             the shop. */}
-        <span className="sm:hidden">{site.street} · Sherwood Park line</span>
+        <span className="sm:hidden">{site.street} · East Edmonton</span>
         <span className="hidden sm:inline">
-          {site.name} · {site.street} · Sherwood Park line
+          {site.name} · {site.street} · East Edmonton
         </span>
       </p>
       {/* The display clamp floors at 2.45rem, not 3.4rem: at 320px the old
@@ -796,7 +796,7 @@ function ChapterZeroCopy({ kinetic = false }: { kinetic?: boolean; ready?: boole
         style={kinetic ? { opacity: 0 } : undefined}
       >
         <p className="max-w-md font-body text-[15px] leading-relaxed text-steel sm:text-base">
-          Restorations, restomods, and engine swaps from a working shop on the Sherwood Park line.
+          Restorations, restomods, and engine swaps from a working shop in east Edmonton.
           Built in Edmonton. Driven anywhere.
         </p>
         <div className="flex flex-wrap items-center gap-3 sm:gap-4">

@@ -7,12 +7,12 @@ import { JsonLd, breadcrumbSchema, faqSchema } from "@/lib/schema";
 
 export const metadata: Metadata = withPageMetadata("/edmonton", {
   title: "Classic Car Restoration Edmonton",
-  description: "Classic car restoration in Edmonton at 2240 Speed Shop, 2009 91 Ave NW on the Sherwood Park line. Drive times for Sherwood Park, Fort Saskatchewan, St. Albert, Leduc and Nisku.",
+  description: `Classic car restoration in Edmonton at 2240 Speed Shop, ${site.street}, off the Sherwood Park Freeway. Drive times for Sherwood Park, Fort Saskatchewan, St. Albert and Leduc.`,
   alternates: { canonical: "/edmonton" },
   openGraph: {
     type: "website",
     title: "Classic Car Restoration Edmonton",
-    description: "Classic car restoration in Edmonton at 2240 Speed Shop, 2009 91 Ave NW on the Sherwood Park line. Drive times for Sherwood Park, Fort Saskatchewan, St. Albert, Leduc and Nisku.",
+    description: `Classic car restoration in Edmonton at 2240 Speed Shop, ${site.street}, off the Sherwood Park Freeway. Drive times for Sherwood Park, Fort Saskatchewan, St. Albert and Leduc.`,
   },
 });
 
@@ -27,40 +27,47 @@ type DriveRow = {
   href?: string;
 };
 
+// Clear-road routes and times to 4507 82 Ave NW, from OSRM routing on
+// 2026-09-22, rounded up to the next five minutes.
 const driveTable: DriveRow[] = [
   {
-    area: "Southeast Edmonton",
-    route: "Local roads — 91 Ave NW at the east edge of the city",
-    drive: "Under 15 min",
+    area: "Mill Woods and the south side",
+    route: "50 Street north — no bridge, no Whyte Ave",
+    drive: "About 15 min",
+  },
+  {
+    area: "Downtown Edmonton",
+    route: "Connors Road and 90 Avenue east to 50 Street",
+    drive: "About 15 min",
   },
   {
     area: "Sherwood Park",
-    route: "Across the county line, minutes from Baseline Road",
-    drive: "About 10 min",
+    route: "Sherwood Park Freeway west — it runs right past the shop",
+    drive: "About 15 min",
     href: "/edmonton/sherwood-park",
   },
   {
     area: "Fort Saskatchewan",
-    route: "Highway 21 south, then west into the city",
-    drive: "About 30 min",
+    route: "Highway 21 south, the Henday, then the Sherwood Park Freeway",
+    drive: "About 35 min",
     href: "/edmonton/fort-saskatchewan",
   },
   {
     area: "St. Albert",
-    route: "Anthony Henday Drive, north end to south end",
-    drive: "About 30 min",
+    route: "The Yellowhead east, then Wayne Gretzky Drive south",
+    drive: "About 35 min",
     href: "/edmonton/st-albert",
   },
   {
     area: "Leduc and Nisku",
-    route: "QEII north to the Henday, then east",
-    drive: "About 30 min",
+    route: "QEII north, Whitemud Drive east, then 50 Street north",
+    drive: "About 30–35 min",
     href: "/edmonton/leduc-nisku",
   },
   {
     area: "Spruce Grove",
-    route: "The Henday, west end all the way around to the southeast",
-    drive: "About 40 min",
+    route: "Highway 16 east across the city, then Wayne Gretzky Drive south",
+    drive: "About 45 min",
     href: "/edmonton/spruce-grove",
   },
 ];
@@ -68,7 +75,7 @@ const driveTable: DriveRow[] = [
 const faq = [
   {
     q: "Where is 2240 Speed Shop?",
-    a: `${site.name} is at ${site.street}, ${site.city}, ${site.region} ${site.postalCode} — in southeast Edmonton, right on the Sherwood Park boundary. Owner-operated by ${site.owner}. Open Monday to Friday, 9:00 to 17:00.`,
+    a: `${site.name} is at ${site.street}, ${site.city}, ${site.region} ${site.postalCode} — in Morris Industrial on Edmonton's east side, just off 50 Street and the Sherwood Park Freeway. Owner-operated by ${site.owner}. Open Monday to Friday, 9:00 to 17:00.`,
   },
   {
     q: "Which areas does the shop serve?",
@@ -76,7 +83,7 @@ const faq = [
   },
   {
     q: "Do I have to drive the car there myself?",
-    a: "No. Plenty of projects arrive on a trailer or a deck truck, especially the ones that have not run in years. The shop sits in a southeast industrial pocket, so there is room to unload without fighting downtown traffic.",
+    a: "No. Plenty of projects arrive on a trailer or a deck truck, especially the ones that have not run in years. The shop sits in an industrial district off 50 Street, so a trailer never has to fight downtown traffic. Call ahead and we will tell you where to unload.",
   },
   {
     q: "When is car season in Edmonton?",
@@ -122,12 +129,12 @@ export default function EdmontonHubPage() {
           <div className="weld mt-6 max-w-md" />
           <p className="mt-6 text-lg leading-relaxed text-bone">
             2240 Speed Shop is a classic car restoration and custom build shop at {site.street} in
-            southeast Edmonton, right on the Sherwood Park boundary. {site.owner}&rsquo;s shop
-            serves Edmonton, Sherwood Park, St. Albert, Leduc, Nisku, Spruce Grove, and Fort
+            east Edmonton, just off the Sherwood Park Freeway. {site.owner}&rsquo;s shop serves
+            Edmonton, Sherwood Park, St. Albert, Leduc, Nisku, Spruce Grove, and Fort
             Saskatchewan — most of the metro sits inside a forty-minute drive.
           </p>
           <p className="mt-4 text-base leading-relaxed text-steel">
-            East Edmonton. Sherwood Park line. Come see the work.
+            East Edmonton. Off the Sherwood Park Freeway. Come see the work.
           </p>
         </div>
 
@@ -135,7 +142,7 @@ export default function EdmontonHubPage() {
           <div data-fx="mask" className="relative aspect-[3/4] w-full overflow-hidden">
             <Image
               src="/shop/IMG_2943-original.jpeg"
-              alt="The rusted steel 2240 Speed Shop sign above the red door at 2009 91 Ave NW, the classic car restoration shop in southeast Edmonton"
+              alt="The rusted steel 2240 Speed Shop sign above a red shop door — the badge of the classic car restoration shop in east Edmonton"
               fill
               priority
               sizes="(min-width: 1024px) 42vw, 100vw"
@@ -143,8 +150,8 @@ export default function EdmontonHubPage() {
             />
           </div>
           <figcaption className="mt-3 text-sm leading-relaxed text-steel">
-            Laser-cut steel, left to weather on purpose. Red door, number 2009. If you have driven
-            past it, you have found the place.
+            Laser-cut steel, left to weather on purpose — the badge this whole site is built
+            around.
           </figcaption>
         </figure>
       </header>
@@ -156,14 +163,15 @@ export default function EdmontonHubPage() {
           </h2>
           <div className="weld mt-5 max-w-xs" />
           <p className="mt-6 text-base leading-relaxed text-steel">
-            {site.street}, in the southeast industrial pocket where the city stops and Strathcona
-            County starts. Not a strip-mall bay and not a downtown address. Room to unload a trailer,
-            room to park a project, and a bay door you can actually back up to.
+            {site.street}, in Morris Industrial on the east side of the city — a few blocks east of
+            50 Street, on the south side of 82 Avenue, with the Sherwood Park Freeway running along
+            the south edge of the block. An industrial street, not a strip mall and not a downtown
+            address. Trailering in? Call ahead and we will tell you where to unload.
           </p>
           <p className="mt-4 text-base leading-relaxed text-steel">
-            Being on the line is the whole geographic argument. Sherwood Park customers cross one
-            boundary. Fort Saskatchewan comes down Highway 21. Everyone west rides the Henday around
-            the bottom of the city and never touches Whyte Ave on a Saturday.
+            The location does the arguing. The Sherwood Park Freeway runs straight from the Park to
+            the shop. Mill Woods comes up 50 Street without a bridge. The Whitemud and the Yellowhead
+            bring everyone else across the city without touching Whyte Ave on a Saturday.
           </p>
         </div>
 
@@ -278,8 +286,9 @@ export default function EdmontonHubPage() {
           ))}
         </ul>
         <p className="mt-6 text-sm leading-relaxed text-steel">
-          Coming from a county road we have not named? Highway 21 and the Henday both end up at the
-          same bay door. Call the shop and describe the project.
+          Coming from a county road we have not named? The Henday, the Whitemud, and the Sherwood
+          Park Freeway all end up at the same door on 82 Avenue. Call the shop and describe the
+          project.
         </p>
       </section>
 

@@ -4,7 +4,7 @@
 
 ### Most shop websites list services. This one turns the lights on and walks you through the bay.
 
-A **spec-built rebuild** for [2240 Speed Shop](https://2240speedshop.com) — Terry Harmider's customs-and-classics garage on the Sherwood Park line in Edmonton, Alberta. A scroll-driven 3D night garage rendered in React Three Fiber, wrapped around **33 server-rendered pages** engineered so every high-value keyword in the Edmonton market has exactly one owning page.
+A **spec-built rebuild** for [2240 Speed Shop](https://2240speedshop.com) — Terry Harmider's customs-and-classics garage at 4507 82 Ave NW, just off the Sherwood Park Freeway in east Edmonton, Alberta. A scroll-driven 3D night garage rendered in React Three Fiber, wrapped around **33 server-rendered pages** engineered so every high-value keyword in the Edmonton market has exactly one owning page.
 
 > **The art never holds the SEO hostage.** No AI crawler except Googlebot executes JavaScript — so every word, every table, and every line of JSON-LD ships in the server payload. The WebGL is `aria-hidden` decoration over a photograph. Kill the canvas and the site still ranks.
 

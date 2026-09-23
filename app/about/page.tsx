@@ -7,11 +7,11 @@ import { breadcrumbSchema, JsonLd, personSchema } from "@/lib/schema";
 
 export const metadata: Metadata = withPageMetadata("/about", {
   title: "Terry Harmider, Edmonton Shop Owner",
-  description: "Terry Harmider owns and runs 2240 Speed Shop, the customs-and-classics garage at 2009 91 Ave NW in east Edmonton. The steel sign, the D100, the Radium run.",
+  description: `Terry Harmider owns and runs 2240 Speed Shop, the customs-and-classics garage at ${site.street} in east Edmonton. The steel sign, the D100, the Radium run.`,
   alternates: { canonical: "/about" },
   openGraph: {
     title: "Terry Harmider, Edmonton Shop Owner",
-    description: "Terry Harmider owns and runs 2240 Speed Shop, the customs-and-classics garage at 2009 91 Ave NW in east Edmonton. The steel sign, the D100, the Radium run.",
+    description: `Terry Harmider owns and runs 2240 Speed Shop, the customs-and-classics garage at ${site.street} in east Edmonton. The steel sign, the D100, the Radium run.`,
     url: "/about",
   },
 });
@@ -54,7 +54,7 @@ export default function AboutPage() {
             </h2>
             <div className="mt-5 space-y-5 font-body text-[15px] leading-relaxed text-steel">
               <p>
-                He is the owner of a working garage on 91 Avenue, not a franchise operator with a
+                He is the owner of a working garage in east Edmonton, not a franchise operator with a
                 logo package. The shop calls itself customs and classics because that is what Terry
                 put on the front of the building long before anybody suggested he needed a website.
                 The sign reads CLASSICS AND CUSTOMS. The bio reads customs and classics. Either way
@@ -82,12 +82,12 @@ export default function AboutPage() {
             </h2>
             <div className="mt-5 space-y-5 font-body text-[15px] leading-relaxed text-steel">
               <p>
-                Above the door on the pale green siding hangs a disc cut from steel plate:{" "}
+                The shop&apos;s sign is a disc cut from steel plate:{" "}
                 <span className="text-bone">SPEED SHOP</span> arced over the top,{" "}
                 <span className="text-bone">2240</span> across the middle with a pair of wrenches
                 crossed behind the numbers, <span className="text-bone">CLASSICS AND CUSTOMS</span>{" "}
-                arced underneath, and a star on each shoulder. The steel has gone rust-brown outside
-                through however many Edmonton winters it has stood there.
+                arced underneath, and a star on each shoulder. The steel has gone rust-brown through
+                however many Edmonton winters it has hung outside.
               </p>
               <p>
                 It is not a vinyl banner and it did not come from a sign shop&apos;s catalogue. It
@@ -112,8 +112,7 @@ export default function AboutPage() {
               />
             </div>
             <figcaption className="mt-3 font-mono text-xs leading-relaxed text-steel/70">
-              {site.street} — the sign, the maroon door, and a winter that is not finished with it
-              yet.
+              The sign, the maroon door, and a winter that is not finished with it yet.
             </figcaption>
           </figure>
         </div>

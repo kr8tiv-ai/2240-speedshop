@@ -1400,7 +1400,7 @@ function RollUpDoor() {
   );
 }
 
-/* The yard across the lane. 91 Avenue is an industrial strip, not downtown:
+/* The yard across the lane. 82 Avenue in Morris Industrial is an industrial strip, not downtown:
    what stands behind the shop is low tilt-up warehouses with parapet caps,
    strip windows at office height, a lit loading door or two and junk on the
    roof — not a wall of towers. Close enough (26–36 m) to resolve as buildings

@@ -1,6 +1,10 @@
 // Single source of truth for NAP + business facts.
 // Every fact here was verified from live sources on 2026-08-02 — see
 // 2240-speedshop-rebuild/00-MASTER-REPORT.md. Do not invent additions.
+// Address changed 2026-09-22 to 4507 82 Ave NW (owner instruction). Postal code
+// and pin are Google Maps' own geocode of that address; the building sits in
+// Morris Industrial on the south side of 82 Ave, east of 50 St, just north of
+// the Sherwood Park Freeway (City of Edmonton property data + map check).
 
 export const site = {
   name: "2240 Speed Shop",
@@ -11,15 +15,21 @@ export const site = {
   phone: "+1-780-999-6450",
   phoneDisplay: "780-999-6450",
   email: "2240speedshop@gmail.com",
-  street: "2009 91 Ave NW",
+  street: "4507 82 Ave NW",
   city: "Edmonton",
   region: "AB",
-  postalCode: "T6P 1L1",
+  postalCode: "T6B 0E6",
   country: "CA",
-  // Same coords used for local entity GeoCoordinates / hasMap (Proof-verified GBP place).
-  geo: { lat: 53.5249595, lng: -113.374974 },
-  // Proof/Scratchy-verified Google Maps place URL for schema hasMap + AutoRepair sameAs.
-  mapsUrl: "https://www.google.com/maps/place/2240+Speedshop/@53.5249595,-113.374974,17z/data=!3m1!4b1!4m6!3m5!1s0x53a019d224d411e5:0xbd0f3ae17862f5dc!8m2!3d53.5249595!4d-113.374974!16s%2Fg%2F11y2qbm9fq",
+  // Local entity GeoCoordinates: Google Maps geocode of 4507 82 Ave NW.
+  geo: { lat: 53.5176571, lng: -113.4107436 },
+  // schema hasMap: the published street address, not the business name. The
+  // Google Business Profile still lists the former 2009 91 Ave NW address, so
+  // any query that includes "2240 Speed Shop" resolves to the old pin until
+  // the owner updates the listing.
+  mapsUrl: "https://www.google.com/maps/search/?api=1&query=4507+82+Ave+NW%2C+Edmonton%2C+AB+T6B+0E6",
+  // schema sameAs: the Google Business Profile by its stable listing id (cid),
+  // which follows the listing when its address changes.
+  googleBusinessUrl: "https://maps.google.com/?cid=13623172137880843740",
   hours: [
     { days: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"], opens: "09:00", closes: "17:00" },
   ],
@@ -112,11 +122,11 @@ export const services = [
 ] as const;
 
 export const areas = [
-  { slug: "sherwood-park", name: "Sherwood Park", note: "We are on the Sherwood Park line — the shop is minutes from Baseline Road." },
-  { slug: "st-albert", name: "St. Albert", note: "Rock'n August country. Straight up the Henday, about 30 minutes." },
+  { slug: "sherwood-park", name: "Sherwood Park", note: "The Sherwood Park Freeway runs right past the shop — about fifteen minutes from the Park." },
+  { slug: "st-albert", name: "St. Albert", note: "Rock'n August country. The Yellowhead and Wayne Gretzky Drive, about 35 minutes." },
   { slug: "leduc-nisku", name: "Leduc & Nisku", note: "Passenger classics and customs — not just heavy truck work." },
   { slug: "spruce-grove", name: "Spruce Grove", note: "West-end builds welcome; we will talk you through the haul." },
-  { slug: "fort-saskatchewan", name: "Fort Saskatchewan", note: "Highway 21 south, then west — about thirty minutes to the bay door." },
+  { slug: "fort-saskatchewan", name: "Fort Saskatchewan", note: "Highway 21 south, the Henday, then the Sherwood Park Freeway — about thirty-five minutes." },
 ] as const;
 
 export type Service = (typeof services)[number];

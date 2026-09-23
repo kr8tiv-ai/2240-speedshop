@@ -3,6 +3,7 @@ import { withPageMetadata } from "@/lib/metadata";
 import { articles } from "@/lib/blog/registry";
 import { blogSchema } from "@/lib/blog/schema";
 import { JsonLd, breadcrumbSchema } from "@/lib/schema";
+import { site } from "@/lib/site";
 
 export const metadata: Metadata = withPageMetadata("/blog", {
   title: "Shop Journal — Edmonton Classics",
@@ -58,7 +59,7 @@ export default function BlogIndexPage() {
           <p className="mt-6 max-w-2xl font-body text-lg leading-relaxed text-steel">
             What this work actually involves, written by the people doing it. Restomods, barn find
             revivals, and the money questions everyone asks on the phone — answered straight, in
-            Canadian dollars, from {`2009 91 Ave NW`}.
+            Canadian dollars, from {site.street}.
           </p>
         </header>
 

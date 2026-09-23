@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     absolute: "2240 Speed Shop | Classic Restoration & Restomods, Edmonton",
   },
   description:
-    "2240 Speed Shop is Terry Harmider's Edmonton shop on the Sherwood Park line. Restorations, restomods, LS swaps, body and paint for Alberta classics and trucks.",
+    "2240 Speed Shop is Terry Harmider's Edmonton shop off the Sherwood Park Freeway. Restorations, restomods, LS swaps, body and paint for Alberta classics and trucks.",
   alternates: { canonical: "/" },
   openGraph: {
     type: "website",
@@ -30,14 +30,14 @@ export const metadata: Metadata = {
     siteName: site.name,
     title: "2240 Speed Shop | Classic Restoration & Restomods, Edmonton",
     description:
-      "2240 Speed Shop is Terry Harmider's Edmonton shop on the Sherwood Park line. Restorations, restomods, LS swaps, body and paint for Alberta classics and trucks.",
+      "2240 Speed Shop is Terry Harmider's Edmonton shop off the Sherwood Park Freeway. Restorations, restomods, LS swaps, body and paint for Alberta classics and trucks.",
     images: [socialImage],
   },
   twitter: {
     card: "summary_large_image",
     title: "2240 Speed Shop | Classic Restoration & Restomods, Edmonton",
     description:
-      "2240 Speed Shop is Terry Harmider's Edmonton shop on the Sherwood Park line. Restorations, restomods, LS swaps, body and paint for Alberta classics and trucks.",
+      "2240 Speed Shop is Terry Harmider's Edmonton shop off the Sherwood Park Freeway. Restorations, restomods, LS swaps, body and paint for Alberta classics and trucks.",
     images: [socialImage],
   },
 };
@@ -68,11 +68,11 @@ const quotes = [
 const homeFaq = [
   {
     q: "What is 2240 Speed Shop?",
-    a: `2240 Speed Shop is ${site.owner}'s customs-and-classics shop at ${site.street}, ${site.city} — right on the Sherwood Park boundary. Full restorations, hot rods and restomods, LS and diesel conversions, body, paint, and classic interiors. Owner-operated, Monday to Friday, 9:00 to 17:00.`,
+    a: `2240 Speed Shop is ${site.owner}'s customs-and-classics shop at ${site.street}, ${site.city} — in east Edmonton, just off the Sherwood Park Freeway. Full restorations, hot rods and restomods, LS and diesel conversions, body, paint, and classic interiors. Owner-operated, Monday to Friday, 9:00 to 17:00.`,
   },
   {
     q: "Where is 2240 Speed Shop?",
-    a: `${site.street}, ${site.city}, ${site.region} ${site.postalCode}, Canada. On the Sherwood Park line in east Edmonton. Call ${site.phoneDisplay}.`,
+    a: `${site.street}, ${site.city}, ${site.region} ${site.postalCode}, Canada. In Morris Industrial on Edmonton's east side, just off 50 Street and the Sherwood Park Freeway. Call ${site.phoneDisplay}.`,
   },
   {
     q: "How do I get a quote?",
@@ -118,7 +118,7 @@ export default function HomePage() {
           </Kinetic>
           <p className="mt-8 max-w-3xl font-body text-lg leading-relaxed text-bone/90">
             2240 Speed Shop is {site.owner}&rsquo;s customs-and-classics shop at {site.street},{" "}
-            {site.city} &mdash; right on the Sherwood Park boundary. Full restorations, hot rods and
+            {site.city} &mdash; just off the Sherwood Park Freeway. Full restorations, hot rods and
             restomods, LS and diesel conversions, body, paint, and classic interiors. Serving
             {site.areas.join(", ")}. Owner-operated, Monday to Friday, nine to five. Terry reads
             every quote request himself — first number in two business days, no discovery fee, no
@@ -327,7 +327,7 @@ export default function HomePage() {
             id="areas-heading"
             className="max-w-md font-display text-3xl uppercase leading-[0.95] tracking-wide text-bone sm:text-4xl"
           >
-            East Edmonton. Right on the Sherwood Park line.
+            East Edmonton. Just off the Sherwood Park Freeway.
           </h2>
           <ul className="grid grid-cols-2 gap-x-5 gap-y-4 border-l border-tungsten/25 pl-4 font-mono text-[11px] uppercase tracking-[0.16em] text-steel sm:flex sm:flex-wrap sm:gap-x-8 sm:gap-y-3 sm:border-0 sm:pl-0 sm:text-[12px] sm:tracking-[0.2em]">
             <li>

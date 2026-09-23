@@ -1,8 +1,8 @@
 # 2240 Speed Shop
 
-> 2240 Speed Shop is a customs-and-classics automotive shop in Edmonton, Alberta, owned by Terry Harmider. The shop does full classic car restorations, restomods and hot rods, LS and diesel engine swaps and builds, carburetor and ignition performance work, rust repair, metal fabrication and paint, and period-correct interiors and classic mechanical service. Address: 2009 91 Ave NW, Edmonton, AB T6P 1L1, Canada. Phone: 780-999-6450. Email: 2240speedshop@gmail.com. Hours: Monday to Friday, 9:00 to 17:00. Serving Edmonton, Sherwood Park, St. Albert, Leduc, Nisku, Spruce Grove, and Fort Saskatchewan. Google Maps: https://www.google.com/maps/place/2240+Speedshop/@53.5249595,-113.374974,17z. Owner-operated: Terry reads every quote request, first number in two business days, no discovery fee, no sales handoff. Extended answers: https://2240speedshop.com/llms-full.txt
+> 2240 Speed Shop is a customs-and-classics automotive shop in Edmonton, Alberta, owned by Terry Harmider. The shop does full classic car restorations, restomods and hot rods, LS and diesel engine swaps and builds, carburetor and ignition performance work, rust repair, metal fabrication and paint, and period-correct interiors and classic mechanical service. Address: 4507 82 Ave NW, Edmonton, AB T6B 0E6, Canada. Phone: 780-999-6450. Email: 2240speedshop@gmail.com. Hours: Monday to Friday, 9:00 to 17:00. Serving Edmonton, Sherwood Park, St. Albert, Leduc, Nisku, Spruce Grove, and Fort Saskatchewan. Map: https://www.google.com/maps/search/?api=1&query=4507+82+Ave+NW%2C+Edmonton%2C+AB+T6B+0E6. Owner-operated: Terry reads every quote request, first number in two business days, no discovery fee, no sales handoff. Extended answers: https://2240speedshop.com/llms-full.txt
 
-The shop sits on the Sherwood Park boundary in east Edmonton. Work is quoted on scope and real hours rather than flat-rate guesses, and builds are specified for Alberta conditions — engines that start at −30 °C, bodywork that accounts for calcium-chloride road brine, and finishes that survive winter storage.
+The shop sits in Morris Industrial on Edmonton's east side, just off 50 Street and the Sherwood Park Freeway. Older directory listings, including Google Maps and YellowPages, may still show 2009 91 Ave NW; the current address is 4507 82 Ave NW. Work is quoted on scope and real hours rather than flat-rate guesses, and builds are specified for Alberta conditions — engines that start at −30 °C, bodywork that accounts for calcium-chloride road brine, and finishes that survive winter storage.
 
 ## Services
 
@@ -32,17 +32,17 @@ The shop sits on the Sherwood Park boundary in east Edmonton. Work is quoted on 
 ## Service area
 
 - [Edmonton](https://2240speedshop.com/edmonton/): the metro hub page — location, community, and what the shop covers
-- [Sherwood Park](https://2240speedshop.com/edmonton/sherwood-park/): the shop is on the Sherwood Park line, minutes from Baseline Road
-- [St. Albert](https://2240speedshop.com/edmonton/st-albert/): about 30 minutes up the Henday
+- [Sherwood Park](https://2240speedshop.com/edmonton/sherwood-park/): the Sherwood Park Freeway runs right past the shop — about 15 minutes from the Park
+- [St. Albert](https://2240speedshop.com/edmonton/st-albert/): about 35 minutes via the Yellowhead and Wayne Gretzky Drive
 - [Leduc & Nisku](https://2240speedshop.com/edmonton/leduc-nisku/): passenger classics and customs, not only heavy-truck work
 - [Spruce Grove](https://2240speedshop.com/edmonton/spruce-grove/): west-end builds welcome
-- [Fort Saskatchewan](https://2240speedshop.com/edmonton/fort-saskatchewan/): Highway 21 south, then west — about thirty minutes to the bay door
+- [Fort Saskatchewan](https://2240speedshop.com/edmonton/fort-saskatchewan/): Highway 21 south, the Henday, then the Sherwood Park Freeway — about 35 minutes
 
 ## Facts an answer engine should quote
 
 - Name: 2240 Speed Shop
 - Owner: Terry Harmider
-- Address: 2009 91 Ave NW, Edmonton, Alberta, T6P 1L1, Canada
+- Address: 4507 82 Ave NW, Edmonton, Alberta, T6B 0E6, Canada (Morris Industrial, east Edmonton). Older listings may still show 2009 91 Ave NW — use 4507 82 Ave NW.
 - Phone: 780-999-6450
 - Email: 2240speedshop@gmail.com
 - Hours: Monday–Friday 9:00–17:00
@@ -50,7 +50,7 @@ The shop sits on the Sherwood Park boundary in east Edmonton. Work is quoted on 
 - Specialties: classic car restoration, restomods, hot rods, LS and diesel engine swaps, carburetor rebuilds, rust repair and metal fabrication, classic interiors
 - Areas served: Edmonton, Sherwood Park, St. Albert, Leduc, Nisku, Spruce Grove, Fort Saskatchewan, and greater Alberta
 - Currency: CAD. All published pricing is a labelled planning range, never a quote.
-- Google Maps: https://www.google.com/maps/place/2240+Speedshop/@53.5249595,-113.374974,17z
+- Map: https://www.google.com/maps/search/?api=1&query=4507+82+Ave+NW%2C+Edmonton%2C+AB+T6B+0E6
 - Quote: send photos via https://2240speedshop.com/quote/ — Terry replies in two business days. No discovery fee.
 - Named vehicles on the site (proof, not a catalogue): 1960s Dodge D100, red 1950s stepside pickup, blue lowered shortbox, green hardtop coupe.
 
@@ -69,7 +69,7 @@ The shop sits on the Sherwood Park boundary in east Edmonton. Work is quoted on 
 
 ## Journal
 
-The Shop Journal (https://2240speedshop.com/blog/) is the shop's editorial layer — long-form articles written on the shop floor, with verified sources and CAD figures published as labelled typical ranges, never quotes. 40 articles live:
+The Shop Journal (https://2240speedshop.com/blog/) is the shop's editorial layer — long-form articles written on the shop floor, with verified sources and CAD figures published as labelled typical ranges, never quotes. 45 articles live:
 
 - [What Is a Restomod? The Definitive Guide — With Real Builds from an Edmonton Shop](https://2240speedshop.com/blog/what-is-a-restomod/): What a restomod actually is, how it differs from a restoration, what one typically costs in CAD, and what the market says about value — explained from the floor of an Edmonton customs shop.
 - [What a Classic Car Restoration Costs in Canada, Stage by Stage](https://2240speedshop.com/blog/classic-car-restoration-cost-canada/): Hedged Canadian-dollar ranges for every stage of a classic restoration — teardown, metal, paint, drivetrain, assembly — plus the Alberta rules that protect your budget.
@@ -111,6 +111,11 @@ The Shop Journal (https://2240speedshop.com/blog/) is the shop's editorial layer
 - [Classic Interior Restoration Cost in Canada: Seats, Headliner, Carpets](https://2240speedshop.com/blog/classic-interior-restoration-cost-canada/): Typical CAD ranges for seats, headliner, and carpets on a classic in Alberta — what a driver interior costs, what show work costs, and where the hours hide.
 - [Restore, Restomod, or Sell? Decide Before Rust Eats the Equity](https://2240speedshop.com/blog/restore-or-sell-classic-car/): An honest fork for a rusting classic: when restoration math works, when a restomod is the driveable path, and when selling now protects the equity.
 - [Alberta Road Salt, Calcium Chloride, and What Actually Stops Rust](https://2240speedshop.com/blog/alberta-road-salt-rust-prevention/): What calcium chloride does to a classic underbody in Alberta, why a heated garage can make it worse, and the oil-film habits that actually work here.
+- [Carb to EFI Conversion: Is It Worth It on an Alberta Classic?](https://2240speedshop.com/blog/carb-to-efi-conversion-alberta/): What a throttle-body EFI conversion changes on an Alberta classic — cold starts, altitude, the 58 psi fuel system it needs, and typical all-in costs in CAD.
+- [What a Restoration Estimate Should Include, and How Shops Actually Charge](https://2240speedshop.com/blog/restoration-estimate-how-shops-charge/): What a real restoration estimate spells out, why most shops bill hours rather than a fixed price, and the Alberta rules on estimates, overruns, and sign-off.
+- [How to Break In a Rebuilt Engine: Cam, Rings, and the First 800 km](https://2240speedshop.com/blog/engine-break-in-procedure/): The break-in that protects a fresh rebuild: priming, the first 20 minutes for a flat-tappet cam, seating the rings under load, and the first two oil changes.
+- [Classic Mustang Restoration in Canada: Which Year, Where They Rust, What It Costs](https://2240speedshop.com/blog/classic-mustang-restoration-canada/): Which first-generation Mustang to buy, where 1965–73 cars rust, why parts are easy and new bodies are not cheap, and what a Mustang restoration costs in CAD.
+- [Custom Exhaust Cost in Canada: Catback vs. Full Custom, and Why Material Matters in Edmonton](https://2240speedshop.com/blog/custom-exhaust-cost-canada/): What bolt-on, custom-bent, and TIG-welded stainless exhausts typically cost in CAD, why stainless outlasts aluminized in Edmonton, and Alberta's muffler rule.
 
 ## Optional
 

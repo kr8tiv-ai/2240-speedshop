@@ -49,7 +49,7 @@ export const metadata: Metadata = {
     template: "%s | 2240 Speed Shop",
   },
   description:
-    "Terry Harmider's customs-and-classics shop on the Sherwood Park line. Restorations, restomods, LS swaps, body, paint and interiors in Edmonton, Alberta.",
+    "Terry Harmider's customs-and-classics shop off the Sherwood Park Freeway. Restorations, restomods, LS swaps, body, paint and interiors in Edmonton, Alberta.",
   alternates: { canonical: "/" },
   icons: {
     icon: [{ url: "/favicon.ico" }],
@@ -62,14 +62,14 @@ export const metadata: Metadata = {
     url: "/",
     title: "2240 Speed Shop — Classic Restoration, Edmonton AB",
     description:
-      "Terry Harmider's customs-and-classics shop on the Sherwood Park line. Restorations, restomods, LS swaps, body, paint and interiors in Edmonton, Alberta.",
+      "Terry Harmider's customs-and-classics shop off the Sherwood Park Freeway. Restorations, restomods, LS swaps, body, paint and interiors in Edmonton, Alberta.",
     images: [socialImage],
   },
   twitter: {
     card: "summary_large_image",
     title: "2240 Speed Shop — Classic Restoration, Edmonton AB",
     description:
-      "Terry Harmider's customs-and-classics shop on the Sherwood Park line. Restorations, restomods, LS swaps, body, paint and interiors in Edmonton, Alberta.",
+      "Terry Harmider's customs-and-classics shop off the Sherwood Park Freeway. Restorations, restomods, LS swaps, body, paint and interiors in Edmonton, Alberta.",
     images: [socialImage],
   },
   robots: { index: true, follow: true },

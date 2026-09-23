@@ -17,7 +17,7 @@ export const meta: ArticleMeta = {
   metaTitle: "Out-of-Province Inspection Edmonton",
   description: "What an Alberta out-of-province inspection covers, typical 2026 Edmonton costs, the 10-day repair window, and why lifted or modified vehicles never skip it.",
   datePublished: "2026-08-12",
-  dateModified: "2026-08-12",
+  dateModified: "2026-09-22",
   author: "2240 Speed Shop",
   category: "Alberta Law",
   targetKeywords: [
@@ -560,7 +560,7 @@ export function Body() {
       </p>
       <p>
         Geography helps too. The shop sits on Edmonton&rsquo;s east side,{" "}
-        <Link href="/edmonton/sherwood-park">minutes off the Sherwood Park line</Link> — convenient
+        <Link href="/edmonton/sherwood-park">just off the Sherwood Park Freeway</Link> — convenient
         when the vehicle is arriving by trailer from Saskatchewan on a Wednesday and the plan
         needs to survive contact with reality. Bring the ad, the photos, or the vehicle itself
         through the <Link href="/quote#form">quote page</Link> and you will get a straight read: what

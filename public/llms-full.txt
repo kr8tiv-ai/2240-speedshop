@@ -11,7 +11,10 @@ Q: What is 2240 Speed Shop?
 A: A customs-and-classics shop in east Edmonton, owned and run by Terry Harmider. Full restorations, restomods and hot rods, LS and diesel swaps, carburetor and ignition work, rust repair, metal, paint, and classic interiors.
 
 Q: Where is it?
-A: 2009 91 Ave NW, Edmonton, AB T6P 1L1, Canada — on the Sherwood Park line. Google Maps: https://www.google.com/maps/place/2240+Speedshop/@53.5249595,-113.374974,17z
+A: 4507 82 Ave NW, Edmonton, AB T6B 0E6, Canada — in Morris Industrial on Edmonton's east side, just off 50 Street and the Sherwood Park Freeway. Map: https://www.google.com/maps/search/?api=1&query=4507+82+Ave+NW%2C+Edmonton%2C+AB+T6B+0E6
+
+Q: I found a different address online. Which is right?
+A: 4507 82 Ave NW. Older listings, including Google Maps and YellowPages, may still show 2009 91 Ave NW. Call 780-999-6450 if in doubt.
 
 Q: Phone, email, hours?
 A: 780-999-6450. 2240speedshop@gmail.com. Monday to Friday, 9:00 to 17:00. Weekends closed.
@@ -49,14 +52,29 @@ A: That is the bar this shop builds to. Block heaters, ignition, fuel, and oil a
 Q: Are exhaust mods legal in Alberta?
 A: Legal with a working muffler, inside the noise rules. Edmonton has enforced a $1,000 fine. Read the statute with Alberta Transportation, not a forum. https://2240speedshop.com/blog/alberta-exhaust-noise-laws/
 
+Q: Can an Alberta repair shop charge more than its estimate?
+A: Not by much without consent. Alberta's Automotive Business Regulation caps it at 10 percent over the estimate, to a maximum of $100, unless the customer expressly consented to the higher price beforehand or both sides amended the estimate. Work also needs the customer's authorization before it starts. https://2240speedshop.com/blog/restoration-estimate-how-shops-charge/
+
+Q: Is a carb to EFI conversion worth it in Alberta?
+A: Usually, for a classic that gets driven: a self-tuning throttle body handles cold starts, hot restarts, and altitude on its own. Typical all-in range for a throttle-body conversion done properly on a healthy engine: $4,000–$8,000 CAD. Not for a numbers-matching show car, and it will not fix a worn engine. https://2240speedshop.com/blog/carb-to-efi-conversion-alberta/
+
+Q: How do you break in a rebuilt engine?
+A: Prime the oiling system, start it fast, never idle it; on a flat-tappet cam vary 1,500–3,000 rpm for 20–30 minutes, then change the oil and filter. Seat the rings with short bursts of load in the first 30–50 km, and change the oil again at about 800 km. https://2240speedshop.com/blog/engine-break-in-procedure/
+
+Q: What does a custom exhaust cost in Canada?
+A: Typical installed ranges for a classic V8: $1,500–$3,000 for a pre-bent bolt-on system, $2,000–$4,000 for a custom-bent 409 stainless dual system, $3,500–$7,000+ for TIG-welded 304 stainless. In Edmonton, stainless outlasts aluminized pipe on any car that sees winter roads. https://2240speedshop.com/blog/custom-exhaust-cost-canada/
+
+Q: Where do classic Mustangs rust?
+A: First-generation Mustangs are unibodies: check the floors, frame rails, lower doors, trunk lid, cowl vent, rear window area, battery tray, and lower shock towers. https://2240speedshop.com/blog/classic-mustang-restoration-canada/
+
 ## Service area (drive times, clear road)
 
-- Edmonton (southeast industrial): local
-- Sherwood Park / Baseline Road: about 10 minutes — https://2240speedshop.com/edmonton/sherwood-park/
-- Fort Saskatchewan / Highway 21: about 30 minutes — https://2240speedshop.com/edmonton/fort-saskatchewan/
-- St. Albert / Henday: about 30 minutes — https://2240speedshop.com/edmonton/st-albert/
-- Leduc and Nisku: about 30 minutes — https://2240speedshop.com/edmonton/leduc-nisku/
-- Spruce Grove: about 40 minutes — https://2240speedshop.com/edmonton/spruce-grove/
+- Edmonton (east side, Morris Industrial): Mill Woods and downtown about 15 minutes — https://2240speedshop.com/edmonton/
+- Sherwood Park / Sherwood Park Freeway: about 15 minutes — https://2240speedshop.com/edmonton/sherwood-park/
+- Fort Saskatchewan / Highway 21, the Henday, the Sherwood Park Freeway: about 35 minutes — https://2240speedshop.com/edmonton/fort-saskatchewan/
+- St. Albert / the Yellowhead and Wayne Gretzky Drive: about 35 minutes — https://2240speedshop.com/edmonton/st-albert/
+- Leduc and Nisku / QEII and Whitemud Drive: about 30–35 minutes — https://2240speedshop.com/edmonton/leduc-nisku/
+- Spruce Grove / Highway 16: about 45 minutes — https://2240speedshop.com/edmonton/spruce-grove/
 
 ## Proof on the site (real shop vehicles, not a catalogue)
 
