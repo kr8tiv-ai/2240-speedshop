@@ -17,7 +17,7 @@ export const metadata: Metadata = withPageMetadata("/quote", {
     description: "Get a car restoration quote in Edmonton. Send photos. Terry reads every request and answers with scope, sequence and a number band in two business days.",
     url: "/quote",
   },
-});
+}, "/quote.md");
 
 const quoteFaq = [
   {

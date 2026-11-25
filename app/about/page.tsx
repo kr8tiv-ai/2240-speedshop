@@ -14,7 +14,7 @@ export const metadata: Metadata = withPageMetadata("/about", {
     description: "Terry Harmider owns and runs 2240 Speed Shop, the customs-and-classics garage at 2009 91 Ave NW in east Edmonton. The steel sign, the D100, the Radium run.",
     url: "/about",
   },
-});
+}, "/about.md");
 
 export default function AboutPage() {
   return (

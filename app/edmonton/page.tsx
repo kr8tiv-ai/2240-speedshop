@@ -14,7 +14,7 @@ export const metadata: Metadata = withPageMetadata("/edmonton", {
     title: "Classic Car Restoration Edmonton",
     description: "Classic car restoration in Edmonton at 2240 Speed Shop, 2009 91 Ave NW on the Sherwood Park line. Drive times for Sherwood Park, Fort Saskatchewan, St. Albert, Leduc and Nisku.",
   },
-});
+}, "/edmonton.md");
 
 const mapUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(
   `${site.street}, ${site.city}, ${site.region} ${site.postalCode}`

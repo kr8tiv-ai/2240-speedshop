@@ -14,7 +14,7 @@ export const metadata: Metadata = withPageMetadata("/contact", {
     description: "Contact 2240 Speed Shop in Edmonton: 2009 91 Ave NW, 780-999-6450, Monday to Friday 9 to 5. Map, Sherwood Park to Spruce Grove, and what to photograph.",
     url: "/contact",
   },
-});
+}, "/contact.md");
 
 const dayRows = [
   { day: "Monday", hours: "9:00 – 17:00" },

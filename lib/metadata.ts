@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { canonicalPageUrl, site } from "./site";
+import { canonicalPageUrl, publicFileUrl, site } from "./site";
 
 export const socialImage = {
   url: "/social/2240-speed-shop-edmonton-cinematic-v1.png",
@@ -12,11 +12,18 @@ export const socialImage = {
 export function withPageMetadata(
   path: string,
   metadata: Metadata & { title: string; description: string },
+  markdownPath?: string,
 ): Metadata {
   const images = metadata.openGraph?.images ?? [socialImage];
   return {
     ...metadata,
-    alternates: { ...metadata.alternates, canonical: canonicalPageUrl(path) },
+    alternates: {
+      ...metadata.alternates,
+      canonical: canonicalPageUrl(path),
+      ...(markdownPath
+        ? { types: { "text/markdown": publicFileUrl(markdownPath) } }
+        : {}),
+    },
     openGraph: {
       type: "website",
       locale: "en_CA",

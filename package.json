@@ -54,7 +54,8 @@
     "audit:hero-remount": "node scripts/hero-remount-check.mjs",
     "audit:garage-remount": "node scripts/garage-remount-check.mjs",
     "audit:hero-compile-race": "node scripts/hero-compile-race.mjs",
-    "shots:combined": "node scripts/combined-shots.js"
+    "shots:combined": "node scripts/combined-shots.js",
+    "indexnow": "node scripts/indexnow.mjs"
   },
   "dependencies": {
     "@react-three/drei": "^10.7.7",

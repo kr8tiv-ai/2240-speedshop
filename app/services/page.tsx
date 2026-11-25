@@ -23,7 +23,7 @@ export const metadata: Metadata = withPageMetadata("/services", {
     title: "Classic Car Shop Edmonton, Alberta",
     description: "2240 Speed Shop is a classic car shop in Edmonton, Alberta: restoration, restomods, LS and diesel swaps, carb tuning, rust repair, paint and interiors.",
   },
-});
+}, "/services.md");
 
 /** 80-word teasers — the hub says enough to be liftable on its own. */
 const teasers: Record<(typeof services)[number]["slug"], string> = {

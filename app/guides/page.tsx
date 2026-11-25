@@ -16,7 +16,7 @@ export const metadata: Metadata = withPageMetadata("/guides", {
     description: "Straight answers for Alberta classic owners: restoration costs in CAD, modified vehicle laws, and how classics survive −40. Written in an Edmonton shop.",
     url: "/guides",
   },
-});
+}, "/guides.md");
 
 type Pillar = {
   href: string;

@@ -2,6 +2,7 @@
 
 import { useCallback, useEffect, useRef, useState } from "react";
 import { getHeroBootGeneration, useHeroBootSnapshot } from "./hero-boot";
+import { geoDisplay } from "@/lib/site";
 
 /**
  * A lightweight brand plate in front of the lazy Three runtime. Progress and
@@ -170,7 +171,7 @@ export function Preloader({ onDone }: { onDone?: () => void }) {
           <p className="loader-instrument__mark">2240</p>
           <p className="loader-instrument__meta">
             <span>EDMONTON / AFTER HOURS</span>
-            <span>53.4818°N / 113.3773°W</span>
+            <span>{geoDisplay.compact}</span>
           </p>
         </div>
 

@@ -12,7 +12,7 @@ import { Roll } from "@/components/fx/Roll";
 import { GLImage } from "@/components/gl/GLImage";
 import { InstagramGrid } from "@/components/InstagramGrid";
 import { builds } from "@/lib/builds";
-import { areas, services, site } from "@/lib/site";
+import { areas, publicFileUrl, services, site } from "@/lib/site";
 import { socialImage } from "@/lib/metadata";
 import { breadcrumbSchema, faqSchema, JsonLd } from "@/lib/schema";
 
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   },
   description:
     "2240 Speed Shop is Terry Harmider's Edmonton shop on the Sherwood Park line. Restorations, restomods, LS swaps, body and paint for Alberta classics and trucks.",
-  alternates: { canonical: "/" },
+  alternates: { canonical: "/", types: { "text/markdown": publicFileUrl("/index.md") } },
   openGraph: {
     type: "website",
     locale: "en_CA",

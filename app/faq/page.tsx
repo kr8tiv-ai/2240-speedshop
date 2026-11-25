@@ -13,7 +13,7 @@ export const metadata: Metadata = withPageMetadata("/faq", {
     description: "How much a classic restoration costs, how long it takes, frame-off versus rolling, Alberta rust and winter storage — answered by 2240 Speed Shop in Edmonton.",
     url: "/faq",
   },
-});
+}, "/faq.md");
 
 const groups = [
   {

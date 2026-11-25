@@ -1,5 +1,5 @@
 import type { MetadataRoute } from "next";
-import { canonicalPageUrl, services, areas } from "@/lib/site";
+import { canonicalPageUrl, publicFileUrl, services, areas } from "@/lib/site";
 import { builds } from "@/lib/builds";
 import { articles } from "@/lib/blog/registry";
 
@@ -18,6 +18,15 @@ type Entry = MetadataRoute.Sitemap[number];
 /** Shared lastmod for non-blog money URLs ? HEAD author date of SEO pass (not build-time now). */
 const SITE_LASTMOD = new Date("2026-09-06T12:37:39.000Z");
 
+/** Home lastmod: decorative coordinates aligned to schema geo, markdown layer added. */
+const HOME_LASTMOD = new Date("2026-11-24T00:00:00.000Z");
+
+/** Edmonton hub and Fort Saskatchewan page published 8 Nov 2026. */
+const EDMONTON_LASTMOD = new Date("2026-11-08T00:00:00.000Z");
+
+/** Machine-readable layer (llms.txt, markdown mirrors, IndexNow key). */
+const AI_LAYER_LASTMOD = new Date("2026-11-24T00:00:00.000Z");
+
 export default function sitemap(): MetadataRoute.Sitemap {
   // Journal entries use article dateModified. Other money URLs share SITE_LASTMOD
   // (repo HEAD author date at SEO brief implementation) so lastmod is stable across rebuilds.
@@ -25,7 +34,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const home: Entry = {
     url: url("/"),
-    lastModified: SITE_LASTMOD,
+    lastModified: HOME_LASTMOD,
     changeFrequency: "weekly",
     priority: 1,
   };
@@ -71,14 +80,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // Local hub + suburbs.
   const edmontonHub: Entry = {
     url: url("/edmonton"),
-    lastModified: SITE_LASTMOD,
+    lastModified: EDMONTON_LASTMOD,
     changeFrequency: "monthly",
     priority: 0.8,
   };
 
   const areaPages: Entry[] = areas.map((a) => ({
     url: url(`/edmonton/${a.slug}`),
-    lastModified: SITE_LASTMOD,
+    lastModified: a.slug === "fort-saskatchewan" ? EDMONTON_LASTMOD : SITE_LASTMOD,
     changeFrequency: "monthly",
     priority: 0.7,
   }));
@@ -121,6 +130,33 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: url("/about"), lastModified: SITE_LASTMOD, changeFrequency: "yearly", priority: 0.6 },
   ];
 
+
+  // Machine-readable copies for crawlers. Same facts as the HTML pages; not advertised in the UI.
+  const markdownPages: Entry[] = [
+    "/index.md",
+    "/about.md",
+    "/services.md",
+    "/contact.md",
+    "/edmonton.md",
+    "/quote.md",
+    "/faq.md",
+    "/reviews.md",
+    "/guides.md",
+    ...services.map((s) => `/services/${s.slug}.md`),
+  ].map((path) => ({
+    url: publicFileUrl(path),
+    lastModified: path === "/edmonton.md" ? EDMONTON_LASTMOD : AI_LAYER_LASTMOD,
+    changeFrequency: "monthly" as const,
+    priority: 0.3,
+  }));
+
+  const aiFiles: Entry[] = ["/llms.txt", "/llms-full.txt"].map((path) => ({
+    url: publicFileUrl(path),
+    lastModified: AI_LAYER_LASTMOD,
+    changeFrequency: "monthly" as const,
+    priority: 0.4,
+  }));
+
   return [
     home,
     serviceHub,
@@ -135,5 +171,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     blogHub,
     ...blogPages,
     ...support,
+    ...markdownPages,
+    ...aiFiles,
   ];
 }

@@ -42,6 +42,23 @@ export function canonicalPageUrl(path = "/"): string {
   return `${site.url}${pathname.endsWith("/") ? pathname : `${pathname}/`}`;
 }
 
+/** Absolute URL for a public file (llms.txt, markdown mirrors). No trailing slash. */
+export function publicFileUrl(path: string): string {
+  const pathname = path.startsWith("/") ? path : `/${path}`;
+  return `${site.url}${pathname}`;
+}
+
+/** Decorative coordinates, kept identical to schema geo / hasMap. */
+export const geoDisplay = {
+  lat: `${site.geo.lat}°N`,
+  lng: `${Math.abs(site.geo.lng)}°W`,
+  compact: `${site.geo.lat}°N / ${Math.abs(site.geo.lng)}°W`,
+  emdash: `${site.geo.lat}°N — ${Math.abs(site.geo.lng)}°W`,
+  corner: `N ${site.geo.lat}° — W ${Math.abs(site.geo.lng)}°`,
+  footer: `${site.geo.lat}°N ${Math.abs(site.geo.lng)}°W`,
+} as const;
+
+
 export const services = [
   {
     slug: "classic-car-restoration",
