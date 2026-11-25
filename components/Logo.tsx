@@ -1,8 +1,8 @@
 /**
  * The real 2240 Speed Shop badge, redrawn as vector.
  *
- * Source of truth is the laser-cut corten-steel sign bolted to the shop at
- * 2009 91 Ave (public/shop/shop-storefront-sign.jpg): a circular plate with
+ * Source of truth is the laser-cut corten-steel sign, photographed at the old
+ * 2009 91 Ave NW storefront (public/shop/shop-storefront-sign.jpg): a circular plate with
  * SPEED SHOP arched over crossed wrenches, 2240 across a cut-out waistband
  * that runs out into two winged tabs with red stars, and CLASSICS AND CUSTOMS
  * arched below. `hole` is whatever shows through the cuts — the page colour in

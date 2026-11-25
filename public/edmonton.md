@@ -2,23 +2,23 @@
 
 HTML: https://2240speedshop.com/edmonton/
 
-Classic car restoration in Edmonton at 2240 Speed Shop, 2009 91 Ave NW on the Sherwood Park line. Drive times for Sherwood Park, Fort Saskatchewan, St. Albert, Leduc and Nisku.
+Classic car restoration in Edmonton at 2240 Speed Shop, 4507 82 Ave NW off the Sherwood Park Freeway. Drive times for Sherwood Park, Fort Saskatchewan, St. Albert, Leduc and Nisku.
 
 The shop also serves Spruce Grove. Suburb pages stay in place for those drive-in areas; this hub is the main Edmonton page.
 
 ## Visit
 
 2240 Speed Shop  
-2009 91 Ave NW  
-Edmonton, AB T6P 1L1  
+4507 82 Ave NW  
+Edmonton, AB T6B 2L9  
 Canada
 
 Phone: [780-999-6450](tel:+17809996450)  
 Email: [2240speedshop@gmail.com](mailto:2240speedshop@gmail.com)  
 Hours: Monday to Friday, 09:00–17:00  
 Owner: Terry Harmider  
-Coordinates: 53.5249595°N, 113.374974°W  
-[Google Maps](https://www.google.com/maps/place/2240+Speedshop/@53.5249595,-113.374974,17z/data=!3m1!4b1!4m6!3m5!1s0x53a019d224d411e5:0xbd0f3ae17862f5dc!8m2!3d53.5249595!4d-113.374974!16s%2Fg%2F11y2qbm9fq)
+Coordinates: 53.5176571°N, 113.4107436°W  
+[Google Maps](https://www.google.com/maps/search/?api=1&query=4507+82+Ave+NW%2C+Edmonton%2C+AB+T6B+2L9)
 
-The shop sits on the Sherwood Park line in east Edmonton. Typical drive-in areas include Sherwood Park, Fort Saskatchewan, St. Albert, Leduc, Nisku, and Spruce Grove.
+The shop sits in Morris Industrial in east Edmonton, just off 50 Street and the Sherwood Park Freeway. Typical drive-in areas include Sherwood Park, Fort Saskatchewan, St. Albert, Leduc, Nisku, and Spruce Grove.
 

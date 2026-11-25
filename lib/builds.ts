@@ -294,7 +294,7 @@ export const builds: Build[] = [
       { label: "Stage", value: "Down to bare steel, front clip off" },
       { label: "Visible", value: "Open nose, exposed subframe and front suspension" },
       { label: "Year and model", value: "Confirmed with the owner, never guessed" },
-      { label: "Location", value: "On the floor at 2009 91 Ave NW, Edmonton" },
+      { label: "Location", value: "On the floor at 2240 Speed Shop, Edmonton" },
     ],
     images: [
       {

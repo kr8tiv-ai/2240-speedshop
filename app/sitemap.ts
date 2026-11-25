@@ -15,17 +15,17 @@ const buildSlugs = builds.map((b) => b.slug);
 
 type Entry = MetadataRoute.Sitemap[number];
 
-/** Shared lastmod for non-blog money URLs ? HEAD author date of SEO pass (not build-time now). */
-const SITE_LASTMOD = new Date("2026-09-06T12:37:39.000Z");
+/** Shared lastmod for non-blog money URLs: shop moved to 4507 82 Ave NW (address in every footer). */
+const SITE_LASTMOD = new Date("2026-11-25T00:00:00.000Z");
 
-/** Home lastmod: decorative coordinates aligned to schema geo, markdown layer added. */
-const HOME_LASTMOD = new Date("2026-11-24T00:00:00.000Z");
+/** Home lastmod: new address 4507 82 Ave NW and its coordinates. */
+const HOME_LASTMOD = new Date("2026-11-25T00:00:00.000Z");
 
-/** Edmonton hub and Fort Saskatchewan page published 8 Nov 2026. */
-const EDMONTON_LASTMOD = new Date("2026-11-08T00:00:00.000Z");
+/** Edmonton hub and area pages: drive times re-routed from 4507 82 Ave NW. */
+const EDMONTON_LASTMOD = new Date("2026-11-25T00:00:00.000Z");
 
 /** Machine-readable layer (llms.txt, markdown mirrors, IndexNow key). */
-const AI_LAYER_LASTMOD = new Date("2026-11-24T00:00:00.000Z");
+const AI_LAYER_LASTMOD = new Date("2026-11-25T00:00:00.000Z");
 
 export default function sitemap(): MetadataRoute.Sitemap {
   // Journal entries use article dateModified. Other money URLs share SITE_LASTMOD

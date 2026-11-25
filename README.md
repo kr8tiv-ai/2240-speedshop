@@ -4,7 +4,7 @@
 
 ### Most shop websites list services. This one turns the lights on and walks you through the bay.
 
-The live website of [2240 Speed Shop](https://2240speedshop.com) — Terry Harmider's customs-and-classics garage at 2009 91 Ave NW, on the Sherwood Park line in east Edmonton, Alberta. A scroll-driven 3D night garage rendered in React Three Fiber, wrapped around **75 prerendered pages** — services, Edmonton-area pages, three guide pillars, and a 43-article Journal — engineered so every high-value keyword in the Edmonton market has exactly one owning page.
+The live website of [2240 Speed Shop](https://2240speedshop.com) — Terry Harmider's customs-and-classics garage at 4507 82 Ave NW, just off the Sherwood Park Freeway in east Edmonton, Alberta. A scroll-driven 3D night garage rendered in React Three Fiber, wrapped around **75 prerendered pages** — services, Edmonton-area pages, three guide pillars, and a 43-article Journal — engineered so every high-value keyword in the Edmonton market has exactly one owning page.
 
 **This repository is the source of truth for the site.** Production is a static export published to Hostinger.
 

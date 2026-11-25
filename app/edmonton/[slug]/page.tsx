@@ -36,21 +36,21 @@ const content: Record<string, AreaContent> = {
     h1: "Classic car restoration in Sherwood Park",
     metaTitle: "Classic Restoration Sherwood Park",
     metaDescription:
-      "Classic car restoration for Sherwood Park and Strathcona County. 2240 Speed Shop sits on the county line at 2009 91 Ave NW, ten minutes from Baseline Road.",
+      `Classic car restoration for Sherwood Park and Strathcona County. 2240 Speed Shop is at ${site.street}, straight down the Sherwood Park Freeway — about 15 minutes.`,
     lede:
-      "2240 Speed Shop sits on the Sherwood Park line at 2009 91 Ave NW. From Baseline Road it is roughly ten minutes west — closer than most Edmonton shops are to each other. For Strathcona County owners, classic car restoration stops being something you drive across a city for.",
-    drive: "Baseline Road to the bay door — about 10 minutes",
+      `2240 Speed Shop is at ${site.street} in east Edmonton, and the Sherwood Park Freeway runs right past it. From the middle of the Park it is about fifteen minutes on a clear road — one freeway, no bridges. For Strathcona County owners, classic car restoration stops being something you drive across a city for.`,
+    drive: "Sherwood Park Freeway west to the shop — about 15 minutes",
     image: {
       src: "/shop/IMG_0052-red-pickup-texaco.jpeg",
-      alt: "Red 1950s stepside pickup with the hood up inside the 2240 Speed Shop bay, ten minutes from Sherwood Park",
-      caption: "Ten minutes from Baseline Road, this is what is behind the door most days.",
+      alt: "Red 1950s stepside pickup with the hood up inside the 2240 Speed Shop bay, about fifteen minutes from Sherwood Park",
+      caption: "Fifteen minutes down the Sherwood Park Freeway, this is what is behind the door most days.",
       aspect: "aspect-[3/4]",
     },
     sections: [
       {
-        h2: "Why is Sherwood Park the shortest drive?",
+        h2: "Why is Sherwood Park such a short drive?",
         body: [
-          "The shop sits in the southeast industrial pocket where Edmonton stops and Strathcona County starts. Coming off Baseline Road, Wye Road, or anywhere near Broadmoor, you cross one boundary and you are here. No Henday, no Whitemud, no Saturday spent on the bridges.",
+          "The shop sits in Morris Industrial on Edmonton's east side, and the Sherwood Park Freeway runs along the south edge of the block. From Wye Road, Broadmoor, or anywhere in the middle of the Park you pick up the one freeway and follow it in. No Henday, no Whitemud, no Saturday spent on the bridges.",
           "That matters more than it sounds. A restoration is not a drop-off-and-forget job — you are going to want to come look at it. From the Park you can do that on a lunch break instead of booking out an afternoon.",
         ],
       },
@@ -65,22 +65,22 @@ const content: Record<string, AreaContent> = {
       {
         h2: "Can I bring it without a trailer?",
         body: [
-          "If it runs and stops, drive it. Ten minutes of county road is a fair shakedown and it tells us things a trailer never will — how it idles warm, whether it pulls, what the brakes actually do at a real stop sign.",
-          "If it does not run, it comes on a deck. There is room out front to unload without blocking anybody.",
+          "If it runs and stops, drive it. Fifteen minutes of freeway is a fair shakedown and it tells us things a trailer never will — how it idles warm, whether it pulls, what the brakes actually do at a real stop sign.",
+          "If it does not run, it comes on a deck. Call ahead and we will tell you where to unload.",
         ],
       },
     ],
     notesTitle: "The Sherwood Park run",
     notes: [
-      "Baseline Road to the bay door: about ten minutes.",
-      "Wye Road and Broadmoor feed straight into the same run.",
+      "The Sherwood Park Freeway to the shop: about fifteen minutes.",
+      "Wye Road runs straight onto the same freeway.",
       "No Anthony Henday and no Whitemud required.",
-      "Room out front to unload a deck truck or a trailer.",
+      "Trailering in? Call ahead for where to unload.",
     ],
     faq: [
       {
         q: "How far is 2240 Speed Shop from Sherwood Park?",
-        a: "About ten minutes from Baseline Road. The shop is at 2009 91 Ave NW in southeast Edmonton, right on the Strathcona County boundary — for most of Sherwood Park it is the closest classic shop, not the furthest.",
+        a: `About fifteen minutes from the middle of the Park on a clear road. The shop is at ${site.street} in east Edmonton, just off the Sherwood Park Freeway — one road from Strathcona County to the shop door.`,
       },
       {
         q: "Do you take on cars that have been stored on an acreage?",
@@ -103,10 +103,10 @@ const content: Record<string, AreaContent> = {
     h1: "Classic car mechanic for St. Albert",
     metaTitle: "Classic Car Mechanic, St. Albert",
     metaDescription:
-      "A classic car mechanic for St. Albert: restoration, rust repair, paint and service at 2240 Speed Shop in southeast Edmonton. Thirty minutes on the Henday.",
+      "A classic car mechanic for St. Albert: restoration, rust repair, paint and service at 2240 Speed Shop in east Edmonton. About 35 minutes on a clear road.",
     lede:
-      "St. Albert to 2240 Speed Shop is the Anthony Henday, top end to bottom — about thirty minutes on a clear road. A classic car mechanic is not a weekly errand, so the drive is rarely the deciding factor. What you book, and when you book it, is.",
-    drive: "Anthony Henday north end to south end — about 30 minutes",
+      "St. Albert to 2240 Speed Shop is the Yellowhead east, then Wayne Gretzky Drive south across the river — about thirty-five minutes on a clear road. A classic car mechanic is not a weekly errand, so the drive is rarely the deciding factor. What you book, and when you book it, is.",
+    drive: "The Yellowhead east, then Wayne Gretzky Drive south — about 35 minutes",
     image: {
       src: "/shop/IMG_1954-original.png",
       alt: "Restored green 1960s hardtop coupe with black vinyl roof, the kind of show-ready car St. Albert owners bring to Rock'n August",
@@ -125,9 +125,9 @@ const content: Record<string, AreaContent> = {
         ],
       },
       {
-        h2: "How bad is the Henday haul?",
+        h2: "How bad is the drive in?",
         body: [
-          "North end to south end, then east. Half an hour on a clear road, longer once west-side construction season opens up.",
+          "The Yellowhead east, Wayne Gretzky Drive south over the river, then a few minutes east to 50 Street. Thirty-five minutes on a clear road, longer at rush hour or once construction season opens up.",
           "So batch the trips. Drop it off against a written scope, get photos at stages, and come out when there is something worth looking at. You should not have to drive across a city to find out what happened this week.",
         ],
       },
@@ -141,15 +141,15 @@ const content: Record<string, AreaContent> = {
     ],
     notesTitle: "The St. Albert run",
     notes: [
-      "Anthony Henday north end to south end, then east: about thirty minutes.",
+      "The Yellowhead, then Wayne Gretzky Drive south: about thirty-five minutes.",
       "Rock'n August lands in August — book the winter before.",
-      "West-side construction season adds time. Leave early.",
+      "Rush hour and construction season add time. Leave early.",
       "Photos at stages, so the drive is worth making.",
     ],
     faq: [
       {
         q: "How long is the drive from St. Albert?",
-        a: "About thirty minutes on a clear Anthony Henday — north end to south end, then east to 2009 91 Ave NW in southeast Edmonton.",
+        a: `About thirty-five minutes on a clear road — the Yellowhead east, Wayne Gretzky Drive south, then east to ${site.street} in east Edmonton.`,
       },
       {
         q: "Can you have my car ready for Rock'n August?",
@@ -172,10 +172,10 @@ const content: Record<string, AreaContent> = {
     h1: "Classic car shop for Leduc and Nisku",
     metaTitle: "Classic Car Shop in Leduc, Nisku",
     metaDescription:
-      "A classic car shop for Leduc and Nisku. Nisku is fleet country — 2240 Speed Shop takes passenger classics, muscle cars and custom pickups. Thirty minutes north.",
+      "A classic car shop for Leduc and Nisku. Nisku is fleet country — 2240 Speed Shop takes passenger classics, muscle cars and custom pickups. About half an hour north.",
     lede:
-      "Leduc and Nisku are full of shops, and most of them were built for heavy truck, fleet, and oilfield iron. A classic car shop is a different animal. 2240 Speed Shop takes passenger classics, muscle cars, and custom pickups, and the run north on the QEII is about thirty minutes.",
-    drive: "QEII north to the Anthony Henday, then east — about 30 minutes",
+      "Leduc and Nisku are full of shops, and most of them were built for heavy truck, fleet, and oilfield iron. A classic car shop is a different animal. 2240 Speed Shop takes passenger classics, muscle cars, and custom pickups, and the run north on the QEII and across on the Whitemud is about thirty minutes.",
+    drive: "QEII north, Whitemud Drive east, then 50 Street north — about 30 minutes",
     image: {
       src: "/shop/IMG_0434-black-muscle-car.jpeg",
       alt: "Black muscle car with a supercharger and twin scoops standing open in the bay at 2240 Speed Shop, the kind of passenger classic Leduc and Nisku shops do not take",
@@ -194,8 +194,8 @@ const content: Record<string, AreaContent> = {
       {
         h2: "How do you get here from Leduc?",
         body: [
-          "QEII north, east onto the Anthony Henday, then off on the southeast side. About thirty minutes clear. Airport traffic is the only variable worth planning around.",
-          "There is room out front for a trailer, which matters if the car has not turned over since the day it got parked.",
+          "QEII north, east on Whitemud Drive, then north on 50 Street. About thirty-five minutes clear from Leduc, a little less from Nisku. Airport traffic is the only variable worth planning around.",
+          "Trailers and decks are normal here — call ahead and we will tell you where to unload, which matters if the car has not turned over since the day it got parked.",
         ],
       },
       {
@@ -208,9 +208,9 @@ const content: Record<string, AreaContent> = {
     ],
     notesTitle: "The Leduc and Nisku run",
     notes: [
-      "QEII north to the Anthony Henday, then east: about thirty minutes.",
+      "QEII north, Whitemud Drive east, 50 Street north: about thirty minutes.",
       "Airport traffic is the variable — plan around it.",
-      "Trailer room out front.",
+      "Trailering in? Call ahead for where to unload.",
       "Passenger classics, muscle, and custom pickups. Not fleet, not heavy truck.",
     ],
     faq: [
@@ -220,7 +220,7 @@ const content: Record<string, AreaContent> = {
       },
       {
         q: "How far is the shop from Leduc?",
-        a: "About thirty minutes. QEII north to the Anthony Henday, then east to 2009 91 Ave NW in southeast Edmonton.",
+        a: `About thirty-five minutes from Leduc, a little less from Nisku. QEII north, Whitemud Drive east, then 50 Street north to ${site.street} in east Edmonton.`,
       },
       {
         q: "Can the work happen while I am out on rotation?",
@@ -239,10 +239,10 @@ const content: Record<string, AreaContent> = {
     h1: "Car restoration for Spruce Grove and the west end",
     metaTitle: "Car Restoration, Spruce Grove AB",
     metaDescription:
-      "Car restoration for Spruce Grove, Stony Plain and Parkland County. 2240 Speed Shop is about forty minutes around the Henday — one trip in, photos at stages.",
+      "Car restoration for Spruce Grove, Stony Plain and Parkland County. 2240 Speed Shop is about 45 minutes across the city — one trip in, photos at stages.",
     lede:
-      "Spruce Grove is the long way around — the full arc of the Anthony Henday from the west end down and across to southeast Edmonton, roughly forty minutes on a clear road. Car restoration is worth that drive precisely because it is not a weekly trip. You come twice, and the work happens in between.",
-    drive: "Anthony Henday, west end around to the southeast — about 40 minutes",
+      "Spruce Grove is the long way in — Highway 16 east across the north side of the city, then Wayne Gretzky Drive south to east Edmonton, roughly forty-five minutes on a clear road. Car restoration is worth that drive precisely because it is not a weekly trip. You come twice, and the work happens in between.",
+    drive: "Highway 16 east, then Wayne Gretzky Drive south — about 45 minutes",
     image: {
       src: "/shop/IMG_0402-covered-classic.jpeg",
       alt: "Maroon classic coupe masked off for paint beside a stripped project shell in the 2240 Speed Shop bay in Edmonton",
@@ -254,15 +254,15 @@ const content: Record<string, AreaContent> = {
       {
         h2: "Is it worth driving from Spruce Grove?",
         body: [
-          "Depends what you need. An oil change is not worth forty minutes. A frame-off, an engine swap, or a paint job you will be looking at for the next twenty years is a different calculation entirely.",
+          "Depends what you need. An oil change is not worth forty-five minutes. A frame-off, an engine swap, or a paint job you will be looking at for the next twenty years is a different calculation entirely.",
           "The honest version: pick the shop, not the postal code. Then make the drive twice — once in, once out — and let the photos cover the middle.",
         ],
       },
       {
         h2: "Trailer it, or drive it?",
         body: [
-          "If it is road-ready and insured, drive it. Forty minutes of Henday tells us more than any static inspection will.",
-          "If it has been sitting, trailer it. A car that has not run in years does not need a highway shakedown as its first outing, and there is room out front to unload a deck.",
+          "If it is road-ready and insured, drive it. Forty-five minutes of highway tells us more than any static inspection will.",
+          "If it has been sitting, trailer it. A car that has not run in years does not need a highway shakedown as its first outing — call ahead and we will tell you where to unload the deck.",
         ],
       },
       {
@@ -275,9 +275,9 @@ const content: Record<string, AreaContent> = {
     ],
     notesTitle: "The west-end haul",
     notes: [
-      "Anthony Henday, west end around to the southeast: about forty minutes.",
+      "Highway 16 east, then Wayne Gretzky Drive south: about forty-five minutes.",
       "One trip in, one trip out. Photos cover the middle.",
-      "Trailer parking and unloading room out front.",
+      "Trailering in? Call ahead for where to unload.",
       "Parkland County barn finds and half-done builds welcome.",
     ],
     faq: [
@@ -291,7 +291,7 @@ const content: Record<string, AreaContent> = {
       },
       {
         q: "How do I know what is happening to my car?",
-        a: "Photos at stages and a scope agreed in writing before work starts. Nobody should have to drive forty minutes to find out what happened this week.",
+        a: "Photos at stages and a scope agreed in writing before work starts. Nobody should have to drive forty-five minutes to find out what happened this week.",
       },
     ],
     serviceSlugs: [
@@ -306,22 +306,22 @@ const content: Record<string, AreaContent> = {
     h1: "Classic car restoration in Fort Saskatchewan",
     metaTitle: "Classic Restoration, Fort Saskatchewan",
     metaDescription:
-      "Classic car restoration for Fort Saskatchewan. 2240 Speed Shop is about thirty minutes down Highway 21, then west to 2009 91 Ave NW on the Sherwood Park line.",
+      `Classic car restoration for Fort Saskatchewan. 2240 Speed Shop is about 35 minutes south, just off the Sherwood Park Freeway at ${site.street}.`,
     lede:
-      "Fort Saskatchewan to 2240 Speed Shop is Highway 21 south, then west into southeast Edmonton — about thirty minutes on a clear road. The shop sits on the Sherwood Park line at 2009 91 Ave NW. Restoration, rust repair, and engine swaps get booked once and worked for weeks, so you make the drive twice, not weekly.",
-    drive: "Highway 21 south, then west — about 30 minutes",
+      `Fort Saskatchewan to 2240 Speed Shop is Highway 21 south, the Henday, then west on the Sherwood Park Freeway into east Edmonton — about thirty-five minutes on a clear road. The shop is at ${site.street}. Restoration, rust repair, and engine swaps get booked once and worked for weeks, so you make the drive twice, not weekly.`,
+    drive: "Highway 21 south, the Henday, then the Sherwood Park Freeway — about 35 minutes",
     image: {
       src: "/shop/IMG_0401-stripped-blue-frame.jpeg",
       alt: "Stripped blue project shell on the shop floor at 2240 Speed Shop in Edmonton, the kind of long-stored Fort Saskatchewan project that arrives on a deck",
-      caption: "Plenty of Fort Saskatchewan projects arrive on a deck. There is room out front to unload.",
+      caption: "Plenty of Fort Saskatchewan projects arrive on a deck. Call ahead and we will tell you where to unload.",
       aspect: "aspect-[3/4]",
     },
     sections: [
       {
         h2: "How far is the shop from Fort Saskatchewan?",
         body: [
-          "Highway 21 south, then west to 2009 91 Ave NW. About thirty minutes without a backup on the industrial stretch. That is a restoration drive, not a weekly-service drive.",
-          "If the car runs and stops, drive it. Thirty minutes of highway tells us idle, pull, and brakes in a way a trailer never will. If it has been sitting, put it on a deck — there is room out front to unload.",
+          `Highway 21 south, the Henday, then west on the Sherwood Park Freeway to ${site.street}. About thirty-five minutes without a backup. That is a restoration drive, not a weekly-service drive.`,
+          "If the car runs and stops, drive it. Thirty-five minutes of highway tells us idle, pull, and brakes in a way a trailer never will. If it has been sitting, put it on a deck — call ahead and we will tell you where to unload.",
         ],
       },
       {
@@ -341,15 +341,15 @@ const content: Record<string, AreaContent> = {
     ],
     notesTitle: "The Fort Saskatchewan run",
     notes: [
-      "Highway 21 south, then west: about thirty minutes.",
-      "Room out front to unload a deck or a trailer.",
+      "Highway 21 south, the Henday, then the Sherwood Park Freeway: about thirty-five minutes.",
+      "Trailering in? Call ahead for where to unload.",
       "Monday to Friday, 9:00 to 17:00.",
       "Terry reads the quote himself — two business days for a number band.",
     ],
     faq: [
       {
         q: "How far is 2240 Speed Shop from Fort Saskatchewan?",
-        a: "About thirty minutes down Highway 21 south, then west to 2009 91 Ave NW in southeast Edmonton, on the Sherwood Park line.",
+        a: `About thirty-five minutes: Highway 21 south, the Henday, then west on the Sherwood Park Freeway to ${site.street} in east Edmonton.`,
       },
       {
         q: "Do I need to trailer the car from Fort Saskatchewan?",

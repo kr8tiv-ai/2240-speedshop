@@ -164,7 +164,7 @@ export function WalkthroughSections() {
         </p>
         <ul className={STATION_LIST}>
           <li>{site.street} · {site.city} {site.region}</li>
-          <li>On the Sherwood Park line</li>
+          <li>Off the Sherwood Park Freeway</li>
           <li>Mon–Fri {site.hours[0].opens}–{site.hours[0].closes}</li>
           <li>Owner-operated · {site.owner}</li>
         </ul>

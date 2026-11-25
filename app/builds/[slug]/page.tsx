@@ -272,7 +272,7 @@ export default async function BuildPage({ params }: { params: Promise<{ slug: st
           </a>
         </div>
         <p className="mt-6 font-mono text-xs leading-relaxed text-steel">
-          {site.street}, {site.city}, {site.region} {site.postalCode} · On the Sherwood Park line ·
+          {site.street}, {site.city}, {site.region} {site.postalCode} · Off the Sherwood Park Freeway ·
           Mon–Fri 9:00–17:00
         </p>
       </section>

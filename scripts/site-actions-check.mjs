@@ -370,13 +370,14 @@ try {
     assert.ok(new URL(source.src).searchParams.get("q")?.includes(site.street), "Map uses the published street address.");
     const frame = await iframe.contentFrame();
     assert.ok(frame, "Address map must create a real frame.");
-    // Google renders the place card outside body.innerText. Verify its resolved
-    // place payload (including the phone, which is not in our query) and loaded
-    // map imagery, then preserve a screenshot for visual confirmation.
+    // Google renders the place card outside body.innerText. The query is
+    // address-only while the Google listing still shows the former 2009 91 Ave
+    // NW address, so verify the card resolved the new street (and never the old
+    // one) and that map imagery loaded, then keep a screenshot for review.
     await frame.waitForFunction(() => {
       const data = document.body?.textContent || "";
-      return document.readyState === "complete" && /2240\s*Speed\s*Shop/i.test(data)
-        && data.includes("2009 91 Ave") && data.includes("(780) 999-6450")
+      return document.readyState === "complete"
+        && data.includes("4507 82 Ave") && !data.includes("2009 91 Ave")
         && [...document.images].filter(image => image.complete && image.naturalWidth > 0).length >= 8;
     },
       { timeout: 25_000 });
