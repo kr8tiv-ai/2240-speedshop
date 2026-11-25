@@ -27,6 +27,9 @@
   Header always set Referrer-Policy "strict-origin-when-cross-origin"
   Header always set X-Frame-Options "SAMEORIGIN"
   Header always set X-Robots-Tag "noindex, follow" env=preview_host
+  # HTTPS is already forced on the apex and www. HSTS is safe here; skip the
+  # Hostinger preview host and do not request preload.
+  Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains" env=!preview_host
 </IfModule>
 
 # ── MIME ────────────────────────────────────────────────────────────────────
@@ -39,6 +42,7 @@
   AddType image/avif                 .avif
   AddType application/rss+xml        .rss
   AddType application/atom+xml       .atom
+  AddType text/markdown              .md
 </IfModule>
 <Files "f.json">
   ForceType application/feed+json

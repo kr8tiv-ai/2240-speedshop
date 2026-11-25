@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { services, site } from "@/lib/site";
+import { publicFileUrl, services, site } from "@/lib/site";
 import { breadcrumbSchema, serviceSchema, JsonLd } from "@/lib/schema";
 import { CostTable, type CostRow } from "@/components/CostTable";
 import { FaqBlock, type FaqItem } from "@/components/FaqBlock";
@@ -742,7 +742,7 @@ export async function generateMetadata({
   return {
     title: d.metaTitle,
     description: d.metaDesc,
-    alternates: { canonical: `/services/${s.slug}` },
+    alternates: { canonical: `/services/${s.slug}`, types: { "text/markdown": publicFileUrl(`/services/${s.slug}.md`) } },
     keywords: [s.keyword, `${s.title} Edmonton`, "2240 Speed Shop", site.city],
     openGraph: {
       type: "article",

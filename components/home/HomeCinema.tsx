@@ -2,7 +2,7 @@
 
 import { useEffect, useLayoutEffect, useRef, useState } from "react";
 import dynamic from "next/dynamic";
-import { site } from "@/lib/site";
+import { geoDisplay, site } from "@/lib/site";
 import { versionShopAsset } from "@/lib/optimized";
 import { splitChars } from "@/lib/split";
 import { supportsWebGL2 } from "@/lib/webgl-capability";
@@ -448,7 +448,7 @@ export function HomeCinema({ walkthrough }: { walkthrough?: React.ReactNode }) {
               and the readout cannot share a line without colliding — and the
               readout is the one carrying information, so the coordinates go. */}
           <div className="pointer-events-none absolute inset-x-0 top-[72px] flex justify-between px-5 sm:px-8">
-            <p className="corner-note hidden min-[380px]:block">53.4818°N — 113.3773°W</p>
+            <p className="corner-note hidden min-[380px]:block">{geoDisplay.emdash}</p>
             {/* ml-auto, not justify-between alone: once the coordinates hide
                 below 380px this becomes the only child and space-between
                 parks it on the LEFT. */}
@@ -764,9 +764,9 @@ function ChapterZeroCopy({ kinetic = false }: { kinetic?: boolean; ready?: boole
         {/* Two lines of address on a 320 is a line of vertical budget spent on
             something the footer already says — the street alone still places
             the shop. */}
-        <span className="sm:hidden">{site.street} · East Edmonton</span>
+        <span className="sm:hidden">{site.street} · Sherwood Park line</span>
         <span className="hidden sm:inline">
-          {site.name} · {site.street} · East Edmonton
+          {site.name} · {site.street} · Sherwood Park line
         </span>
       </p>
       {/* The display clamp floors at 2.45rem, not 3.4rem: at 320px the old
@@ -796,7 +796,7 @@ function ChapterZeroCopy({ kinetic = false }: { kinetic?: boolean; ready?: boole
         style={kinetic ? { opacity: 0 } : undefined}
       >
         <p className="max-w-md font-body text-[15px] leading-relaxed text-steel sm:text-base">
-          Restorations, restomods, and engine swaps from a working shop in east Edmonton.
+          Restorations, restomods, and engine swaps from a working shop on the Sherwood Park line.
           Built in Edmonton. Driven anywhere.
         </p>
         <div className="flex flex-wrap items-center gap-3 sm:gap-4">

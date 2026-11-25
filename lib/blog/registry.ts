@@ -54,11 +54,11 @@ import * as restomodWiring from "./articles/restomod-wiring-harness";
 import * as interiorRestoration from "./articles/classic-interior-restoration-cost-canada";
 import * as restoreOrSell from "./articles/restore-or-sell-classic-car";
 import * as albertaRoadSalt from "./articles/alberta-road-salt-rust-prevention";
-import * as carbToEfi from "./articles/carb-to-efi-conversion-alberta";
-import * as restorationEstimate from "./articles/restoration-estimate-how-shops-charge";
-import * as engineBreakIn from "./articles/engine-break-in-procedure";
-import * as classicMustang from "./articles/classic-mustang-restoration-canada";
-import * as customExhaustCost from "./articles/custom-exhaust-cost-canada";
+
+/* Unpublished-on-live as of 2026-11-24, files kept: carb-to-efi-conversion-alberta, restoration-estimate-how-shops-charge, engine-break-in-procedure, classic-mustang-restoration-canada, custom-exhaust-cost-canada. */
+import * as overheatingBrief from "./articles/classic-car-overheating-diagnosis-edmonton";
+import * as wheelBrakeClearance from "./articles/restomod-wheel-brake-clearance";
+import * as restorationConsult from "./articles/classic-car-restoration-consultation-edmonton";
 
 const modules: ArticleModule[] = [
   whatIsARestomod,
@@ -101,11 +101,9 @@ const modules: ArticleModule[] = [
   interiorRestoration,
   restoreOrSell,
   albertaRoadSalt,
-  carbToEfi,
-  restorationEstimate,
-  engineBreakIn,
-  classicMustang,
-  customExhaustCost,
+  overheatingBrief,
+  wheelBrakeClearance,
+  restorationConsult,
 ];
 
 export const articles: Article[] = modules.map((m) => ({

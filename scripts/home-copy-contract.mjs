@@ -45,7 +45,7 @@ for (const proof of [
   "Proof, pinned to the",
   "The work is the showroom.",
   "The work gets remembered.",
-  "Just off the Sherwood Park Freeway.",
+  "Right on the Sherwood Park line.",
   "Parked, it still",
   "Before the first cut,",
   "Finished paint under honest light.",

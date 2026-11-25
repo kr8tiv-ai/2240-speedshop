@@ -43,7 +43,7 @@ export const businessSchema = {
     closes: h.closes,
   })),
   areaServed: site.areas.map((a) => ({ "@type": "City", name: a })),
-  sameAs: [...site.social, site.googleBusinessUrl],
+  sameAs: [...site.social, site.mapsUrl],
   knowsAbout: [
     "Classic car restoration",
     "Restomod builds",

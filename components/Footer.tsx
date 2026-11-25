@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { site, services, areas } from "@/lib/site";
+import { site, services, areas, geoDisplay } from "@/lib/site";
 import { FooterWordmark } from "@/components/FooterWordmark";
 import { Roll } from "@/components/fx/Roll";
 import { IntentLink } from "@/components/IntentLink";
@@ -63,7 +63,7 @@ export function Footer() {
 
         {/* Mono coordinates strip. */}
         <div className="mt-10 flex flex-wrap items-center justify-between gap-3 border-y border-rust/50 py-3">
-          <p className="corner-note">N 53.4818° — W 113.3773°</p>
+          <p className="corner-note">{geoDisplay.corner}</p>
           <p className="corner-note hidden sm:block">{site.street} · {site.city} {site.region}</p>
           <p className="corner-note">AFTER HOURS · ONE LAMP ON</p>
         </div>
@@ -155,7 +155,7 @@ export function Footer() {
 
         <div className="mt-14 flex flex-col items-start justify-between gap-3 border-t border-rust/60 py-6 sm:flex-row sm:items-center">
           <p className="corner-note">
-            53.4818°N 113.3773°W · EST. EDMONTON · © {new Date().getFullYear()} {site.name}
+            {geoDisplay.footer} · EST. EDMONTON · © {new Date().getFullYear()} {site.name}
           </p>
           <p className="font-mono text-[11px] text-steel">
             Made with{" "}

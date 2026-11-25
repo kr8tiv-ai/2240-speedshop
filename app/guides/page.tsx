@@ -16,7 +16,7 @@ export const metadata: Metadata = withPageMetadata("/guides", {
     description: "Straight answers for Alberta classic owners: restoration costs in CAD, modified vehicle laws, and how classics survive −40. Written in an Edmonton shop.",
     url: "/guides",
   },
-});
+}, "/guides.md");
 
 type Pillar = {
   href: string;
@@ -114,11 +114,6 @@ const publishedTopicSlugs: Record<string, string> = {
   "Barn Find First Steps: Do Not Start It. Reviving a Car That Sat for Years": "barn-find-first-steps",
   "Eight Signs Your Classic Carburetor Needs a Rebuild, Not Just an Adjustment": "carburetor-rebuild-signs",
   "The Chevy C10 and Square-Body Buyer’s and Builder’s Guide (Alberta Edition)": "c10-square-body-alberta-guide",
-  "Custom Exhaust Cost in Canada: Catback vs. Full Custom, and Why Material Matters More in Edmonton": "custom-exhaust-cost-canada",
-  "What a Restoration Estimate Should Include, and How Shops Actually Charge": "restoration-estimate-how-shops-charge",
-  "Carb to EFI Conversion: Worth It? The Cold-Climate Case": "carb-to-efi-conversion-alberta",
-  "How to Break In a Rebuilt Engine: Cam, Rings, and the First 800 km": "engine-break-in-procedure",
-  "Classic Mustang Restoration in Canada: Which Year, Where They Rust, What It Costs": "classic-mustang-restoration-canada",
 };
 
 function topicArticle(title: string) {
@@ -155,10 +150,9 @@ const shopFloor = [
   "Will Modifying or LS-Swapping Your Classic Hurt Its Value? The Honest Math",
   "Carb to EFI Conversion: Worth It? The Cold-Climate Case",
   "Classic Electrical Modernisation: 6V to 12V, Points to Electronic Ignition",
-  "How to Break In a Rebuilt Engine: Cam, Rings, and the First 800 km",
+  "How to Break In a Rebuilt Engine: The Procedure We Give Every Customer",
   "Eight Signs Your Classic Carburetor Needs a Rebuild, Not Just an Adjustment",
   "The Chevy C10 and Square-Body Buyer’s and Builder’s Guide (Alberta Edition)",
-  "Classic Mustang Restoration in Canada: Which Year, Where They Rust, What It Costs",
 ];
 
 export default function GuidesPage() {
