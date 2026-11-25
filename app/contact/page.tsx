@@ -7,11 +7,11 @@ import { breadcrumbSchema, JsonLd } from "@/lib/schema";
 
 export const metadata: Metadata = withPageMetadata("/contact", {
   title: "Contact 2240 Speed Shop, Edmonton",
-  description: `Contact 2240 Speed Shop in Edmonton: ${site.street}, 780-999-6450, Monday to Friday 9 to 5. Map, Sherwood Park to Spruce Grove, and what to photograph.`,
+  description: "Contact 2240 Speed Shop in Edmonton: 2009 91 Ave NW, 780-999-6450, Monday to Friday 9 to 5. Map, Sherwood Park to Spruce Grove, and what to photograph.",
   alternates: { canonical: "/contact" },
   openGraph: {
     title: "Contact 2240 Speed Shop, Edmonton",
-    description: `Contact 2240 Speed Shop in Edmonton: ${site.street}, 780-999-6450, Monday to Friday 9 to 5. Map, Sherwood Park to Spruce Grove, and what to photograph.`,
+    description: "Contact 2240 Speed Shop in Edmonton: 2009 91 Ave NW, 780-999-6450, Monday to Friday 9 to 5. Map, Sherwood Park to Spruce Grove, and what to photograph.",
     url: "/contact",
   },
 });
@@ -46,11 +46,8 @@ const bring = [
 ];
 
 export default function ContactPage() {
-  // Address only, no business name: the Google Business Profile still lists the
-  // former 2009 91 Ave NW address, and a query that includes "2240 Speed Shop"
-  // resolves to that old pin. Add site.name back once the listing is updated.
   const addressQuery = encodeURIComponent(
-    `${site.street}, ${site.city}, ${site.region} ${site.postalCode}`,
+    `${site.name}, ${site.street}, ${site.city}, ${site.region} ${site.postalCode}`,
   );
   // Resolve the published address instead of displaying an unverified pin.
   const mapsEmbed = `https://www.google.com/maps?q=${addressQuery}&output=embed`;
@@ -76,7 +73,7 @@ export default function ContactPage() {
           </h1>
           <p className="mt-6 max-w-2xl font-body text-lg leading-relaxed text-bone">
             2240 Speed Shop is at {site.street}, {site.city}, {site.region} {site.postalCode} — east
-            Edmonton, just off the Sherwood Park Freeway. Phone {site.phoneDisplay} or email{" "}
+            Edmonton, right on the Sherwood Park line. Phone {site.phoneDisplay} or email{" "}
             {site.email}. Open Monday to Friday, 9:00 to 17:00. Send photos first and the
             conversation starts a lot further ahead.
           </p>
@@ -160,7 +157,7 @@ export default function ContactPage() {
               <div data-fx="mask" className="relative aspect-[4/3]">
                 <Image
                   src="/shop/IMG_2943-original.jpeg"
-                  alt="The cut-steel Speed Shop 2240 Classics and Customs sign with crossed wrenches, mounted above a maroon shop door"
+                  alt="Storefront of 2240 Speed Shop in Edmonton with the cut-steel Speed Shop 2240 Classics and Customs sign above the door at 2009"
                   fill
                   sizes="(min-width: 1024px) 30vw, 100vw"
                   className="graded object-cover"
@@ -168,13 +165,12 @@ export default function ContactPage() {
               </div>
               <div className="p-6">
                 <h3 className="font-sub text-[11px] uppercase tracking-[0.24em] text-neon-bloom">
-                  How to find it
+                  What to look for
                 </h3>
                 <p className="mt-3 font-body text-sm leading-relaxed text-steel">
-                  {site.street} is in Morris Industrial, a few blocks east of 50 Street. The
-                  building is on the south side of 82 Avenue, just west of 46 Street, with the
-                  Sherwood Park Freeway running along the south edge of the block. Trailering a
-                  project in? Call ahead and we will tell you where to unload.
+                  Pale green siding, a rust-brown steel disc reading SPEED SHOP 2240 — CLASSICS AND
+                  CUSTOMS with a pair of crossed wrenches through the middle, and a maroon door
+                  numbered 2009. If you can see the sign, you are at the right door.
                 </p>
               </div>
             </div>
@@ -183,7 +179,7 @@ export default function ContactPage() {
           <div className="space-y-6">
             <div className="plate overflow-hidden">
               <iframe
-                title={`Map showing 2240 Speed Shop at ${site.street}, Edmonton`}
+                title="Map showing 2240 Speed Shop at 2009 91 Ave NW, Edmonton"
                 src={mapsEmbed}
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
@@ -208,20 +204,16 @@ export default function ContactPage() {
                 Open in Google Maps
               </a>
             </div>
-            <p className="font-body text-sm leading-relaxed text-steel/80">
-              Searching the shop name in a map app may still turn up an older listing at 2009 91 Ave
-              NW. The shop is at {site.street} — the map above shows the right spot.
-            </p>
 
             <div className="border border-tungsten/45 p-6">
               <h2 className="font-display text-2xl tracking-wide text-bone">
-                How close is the shop to Sherwood Park?
+                Is the shop actually in Sherwood Park?
               </h2>
               <p className="mt-3 font-body text-[15px] leading-relaxed text-steel">
-                The address is Edmonton — Morris Industrial, on the east side of the city. The
-                Sherwood Park Freeway runs right past the shop, so the middle of the Park is about
-                fifteen minutes away on a clear road, with no bridges and no Henday. Trailer in
-                from the county, the west end, or anywhere in the ring.
+                The address is Edmonton. The postal code sits on the eastern edge of the city, which
+                puts the roll-up door minutes from Sherwood Park — close enough that half our
+                customers describe us as a Sherwood Park shop and neither of us corrects them.
+                Trailer in from the county, the west end, or anywhere on the Henday.
               </p>
               <div className="mt-6 flex flex-wrap gap-3">
                 <Link
